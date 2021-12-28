@@ -1,0 +1,41 @@
+{
+    "provincias": [
+        {
+            "nombre": "Albacete",
+            "cod": "02"
+        },
+        {
+            "nombre": "Badajoz",
+            "cod": "06"
+        },
+        {
+            "nombre": "Cáceres",
+            "cod": "10"
+        },
+        {
+            "nombre": "Ciudad Real",
+            "cod": "13"
+        },
+        {
+            "nombre": "Córdoba",
+            "cod": "14"
+        },
+        {
+            "nombre": "Cuenca",
+            "cod": "16"
+        },
+        {
+            "nombre": "Huelva",
+            "cod": "21"
+        },
+        {
+            "nombre": "Sevilla",
+            "cod": "41"
+
+        },
+        {
+            "nombre": "Toledo",
+            "cod": "45"
+        }
+    ]
+}

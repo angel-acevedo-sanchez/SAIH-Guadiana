@@ -1,0 +1,516 @@
+{
+    "estaciones": [
+      {
+        "cod": "CR1-01",
+        "nombre": "Guadiana Aguas Abajo de Peñarroya"
+      },
+      {
+        "cod": "CR1-02",
+        "nombre": "Azuer Aguas Abajo del Puerto de Vallehermoso"
+      },
+      {
+        "cod": "CR1-17",
+        "nombre": "Guadiana Aguas Abajo del Vicario"
+      },
+      {
+        "cod": "CR1-20",
+        "nombre": "Bullaque Aguas Abajo de la Torre de Abraham"
+      },
+      {
+        "cod": "CR1-21",
+        "nombre": "Bullaque en Luciana"
+      },
+      {
+        "cod": "CR1-22",
+        "nombre": "Tirteafuera en Abenojar"
+      },
+      {
+        "cod": "CR1-23",
+        "nombre": "Becea Aguas Abajo de Gasset"
+      },
+      {
+        "cod": "CR1-24",
+        "nombre": "Guadiana en Villarrubia"
+      },
+      {
+        "cod": "CR1-25",
+        "nombre": "Valdejudios"
+      },
+      {
+        "cod": "CR1-26",
+        "nombre": "Guadiana en La Cubeta"
+      },
+      {
+        "cod": "CR2-01",
+        "nombre": "Guadiana en Puebla de Don Rodrigo"
+      },
+      {
+        "cod": "CR2-02",
+        "nombre": "Estena en Helechosa"
+      },
+      {
+        "cod": "CR2-03",
+        "nombre": "Estenilla en Anchuras"
+      },
+      {
+        "cod": "CR2-04",
+        "nombre": "Fresnedoso en Sevilleja"
+      },
+      {
+        "cod": "CR2-05",
+        "nombre": "Guadarranque en Alia"
+      },
+      {
+        "cod": "CR2-06",
+        "nombre": "Guadiana Aguas Abajo de Orellana"
+      },
+      {
+        "cod": "CR2-07",
+        "nombre": "Guadamatilla Aguas Abajo de la Colada"
+      },
+      {
+        "cod": "CR2-08",
+        "nombre": "Zujar en Guadamatilla"
+      },
+      {
+        "cod": "CR2-09",
+        "nombre": "Guadalmez en Guadalmez"
+      },
+      {
+        "cod": "CR2-10",
+        "nombre": "Esteras en Serena"
+      },
+      {
+        "cod": "CR2-11",
+        "nombre": "Guadalemar en Serena"
+      },
+      {
+        "cod": "CR2-12",
+        "nombre": "Siruela en Serena"
+      },
+      {
+        "cod": "CR2-13",
+        "nombre": "Zujar  Aguas Abajo de  Zujar"
+      },
+      {
+        "cod": "CR2-14",
+        "nombre": "Guadalefra en Campanario"
+      },
+      {
+        "cod": "CR2-15",
+        "nombre": "Ruecas en Cañamero"
+      },
+      {
+        "cod": "CR2-16",
+        "nombre": "Pizarroso en Sierra Brava"
+      },
+      {
+        "cod": "CR2-17",
+        "nombre": "Ruecas Aguas Abajo de Azud de Lavadero"
+      },
+      {
+        "cod": "CR2-18",
+        "nombre": "Alcollarin Aguas Abajo de Alcollarin"
+      },
+      {
+        "cod": "CR2-19",
+        "nombre": "Ruecas en Hernan Cortes"
+      },
+      {
+        "cod": "CR2-20",
+        "nombre": "Ortigas en las Cruces"
+      },
+      {
+        "cod": "CR2-21",
+        "nombre": "Guadamez en Golondron"
+      },
+      {
+        "cod": "CR2-22",
+        "nombre": "Burdalo Aguas Abajo de Burdalo"
+      },
+      {
+        "cod": "CR2-23",
+        "nombre": "Burdalo en Sta. Amalia"
+      },
+      {
+        "cod": "CR2-24",
+        "nombre": "Fresneda en Cerros Verdes"
+      },
+      {
+        "cod": "CR2-25",
+        "nombre": "Guadiana en Valverde de Merida"
+      },
+      {
+        "cod": "CR2-26",
+        "nombre": "Matachel Aguas Abajo de Los Molinos"
+      },
+      {
+        "cod": "CR2-27",
+        "nombre": "San Juan en Oliva"
+      },
+      {
+        "cod": "CR2-28",
+        "nombre": "Palomillas"
+      },
+      {
+        "cod": "CR2-29",
+        "nombre": "Valdemedez"
+      },
+      {
+        "cod": "CR2-30",
+        "nombre": "Bonhabal en Alange"
+      },
+      {
+        "cod": "CR2-31",
+        "nombre": "Matachel Aguas Abajo de Alange"
+      },
+      {
+        "cod": "CR2-32",
+        "nombre": "Lacara en Cordobilla de Lacara"
+      },
+      {
+        "cod": "CR2-33",
+        "nombre": "Aljucen en Aljucen"
+      },
+      {
+        "cod": "CR2-34",
+        "nombre": "Guadiana Aguas Abajo de Montijo"
+      },
+      {
+        "cod": "CR2-35",
+        "nombre": "Lacara Aguas Abajo de Canchales"
+      },
+      {
+        "cod": "CR2-36",
+        "nombre": "Guadajira Aguas Abajo de Villalba"
+      },
+      {
+        "cod": "CR2-37",
+        "nombre": "Guadajira en Guadajira"
+      },
+      {
+        "cod": "CR2-38",
+        "nombre": "Entrin en Lobon"
+      },
+      {
+        "cod": "CR2-39",
+        "nombre": "Alcazaba en Montijo"
+      },
+      {
+        "cod": "CR2-40",
+        "nombre": "Lorianilla en Montijo"
+      },
+      {
+        "cod": "CR2-41",
+        "nombre": "Guerrero en Montijo"
+      },
+      {
+        "cod": "CR2-42",
+        "nombre": "Albuera en Talavera"
+      },
+      {
+        "cod": "CR2-43",
+        "nombre": "Zapaton Aguas Abajo de Villar del Rey"
+      },
+      {
+        "cod": "CR2-44",
+        "nombre": "Gevora en los Riscos"
+      },
+      {
+        "cod": "CR2-45",
+        "nombre": "Gevora en Valdebotoa"
+      },
+      {
+        "cod": "CR2-46",
+        "nombre": "Rivilla en Badajoz"
+      },
+      {
+        "cod": "CR2-47",
+        "nombre": "Calamon en Calamon"
+      },
+      {
+        "cod": "CR2-48",
+        "nombre": "Tripero en Arroyo de San Servan"
+      },
+      {
+        "cod": "CR2-49",
+        "nombre": "Guadiana en Badajoz"
+      },
+      {
+        "cod": "CR2-50",
+        "nombre": "Ardila en Oliva de la Frontera"
+      },
+      {
+        "cod": "CR2-51",
+        "nombre": "Guadiana en Villanueva de la Serena"
+      },
+      {
+        "cod": "CR2-52",
+        "nombre": "Guadalupejo en Alía"
+      },
+      {
+        "cod": "CR2-53",
+        "nombre": "Guadiana en Medellin"
+      },
+      {
+        "cod": "CR2-54",
+        "nombre": "Guadiana en Talavera la Real"
+      },
+      {
+        "cod": "CR2-55",
+        "nombre": "Guadiana en Charco de los Pollos"
+      },
+      {
+        "cod": "E1-01",
+        "nombre": "Embalse Peñarroya"
+      },
+      {
+        "cod": "E1-02",
+        "nombre": "Embalse Vallehermoso"
+      },
+      {
+        "cod": "E1-05",
+        "nombre": "Embalse Gasset"
+      },
+      {
+        "cod": "E1-06",
+        "nombre": "Embalse Vicario"
+      },
+      {
+        "cod": "E1-07",
+        "nombre": "Embalse La Cabezuela"
+      },
+      {
+        "cod": "E1-08",
+        "nombre": "Embalse Vega Jabalon"
+      },
+      {
+        "cod": "E1-09",
+        "nombre": "Embalse Torre Abraham"
+      },
+      {
+        "cod": "E1-10",
+        "nombre": "Embalse Campos del Paraiso"
+      },
+      {
+        "cod": "E2-01",
+        "nombre": "Embalse Cijara"
+      },
+      {
+        "cod": "E2-03",
+        "nombre": "Embalse Garcia de Sola"
+      },
+      {
+        "cod": "E2-04",
+        "nombre": "Embalse Orellana"
+      },
+      {
+        "cod": "E2-06",
+        "nombre": "Embalse La Serena"
+      },
+      {
+        "cod": "E2-07",
+        "nombre": "Embalse Zujar"
+      },
+      {
+        "cod": "E2-08",
+        "nombre": "Embalse Cancho Del Fresno"
+      },
+      {
+        "cod": "E2-09",
+        "nombre": "Embalse Ruecas"
+      },
+      {
+        "cod": "E2-10",
+        "nombre": "Azud Lavadero"
+      },
+      {
+        "cod": "E2-11",
+        "nombre": "Embalse Sierra Brava"
+      },
+      {
+        "cod": "E2-12",
+        "nombre": "Embalse Gargaligas"
+      },
+      {
+        "cod": "E2-13",
+        "nombre": "Embalse Cubilar"
+      },
+      {
+        "cod": "E2-14",
+        "nombre": "Embalse Llerena"
+      },
+      {
+        "cod": "E2-15",
+        "nombre": "Embalse Los Molinos"
+      },
+      {
+        "cod": "E2-16",
+        "nombre": "Embalse Alange"
+      },
+      {
+        "cod": "E2-17",
+        "nombre": "Embalse Cornalvo"
+      },
+      {
+        "cod": "E2-18",
+        "nombre": "Embalse Proserpina"
+      },
+      {
+        "cod": "E2-20",
+        "nombre": "Embalse Hornotejero"
+      },
+      {
+        "cod": "E2-21",
+        "nombre": "Embalse El Boqueron"
+      },
+      {
+        "cod": "E2-22",
+        "nombre": "Embalse Los Canchales"
+      },
+      {
+        "cod": "E2-24",
+        "nombre": "Embalse Villar del Rey"
+      },
+      {
+        "cod": "E2-25",
+        "nombre": "Azud Badajoz"
+      },
+      {
+        "cod": "E2-28",
+        "nombre": "Embalse Tentudia"
+      },
+      {
+        "cod": "E2-32",
+        "nombre": "Embalse Villalba"
+      },
+      {
+        "cod": "E2-33",
+        "nombre": "Embalse Alcollarín"
+      },
+      {
+        "cod": "E2-34",
+        "nombre": "Embalse Burdalo"
+      },
+      {
+        "cod": "EX2-39",
+        "nombre": "VILLALBA DE LOS BARROS"
+      },
+      {
+        "cod": "NR2-01",
+        "nombre": "Arroyo Caganchez"
+      },
+      {
+        "cod": "NR2-10",
+        "nombre": "Ruecas en Madrigalejo"
+      },
+      {
+        "cod": "NR2-11",
+        "nombre": "Arroyo Barroso"
+      },
+      {
+        "cod": "NR2-12",
+        "nombre": "Charca de San Antón"
+      },
+      {
+        "cod": "NR2-13",
+        "nombre": "Arroyo del Gato"
+      },
+      {
+        "cod": "NR2-14",
+        "nombre": "Badén Entrerríos"
+      },
+      {
+        "cod": "NR2-15",
+        "nombre": "S-XII Camino General nº3"
+      },
+      {
+        "cod": "NR2-16",
+        "nombre": "Arroyo del Campo"
+      },
+      {
+        "cod": "NR2-17",
+        "nombre": "Arroyo Matapeces"
+      },
+      {
+        "cod": "NR2-18",
+        "nombre": "Arroyo del Hornillo"
+      },
+      {
+        "cod": "NR2-19",
+        "nombre": "Cagánchez en Medellín"
+      },
+      {
+        "cod": "NR2-20",
+        "nombre": "O VI-1"
+      },
+      {
+        "cod": "NR2-21",
+        "nombre": "Badén Valdetorres"
+      },
+      {
+        "cod": "NR2-22",
+        "nombre": "O XXVIII-18"
+      },
+      {
+        "cod": "NR2-23",
+        "nombre": "Final Matachel II"
+      },
+      {
+        "cod": "NR2-24",
+        "nombre": "Arroyo San Juan"
+      },
+      {
+        "cod": "NR2-25",
+        "nombre": "Valdesilos"
+      },
+      {
+        "cod": "NR2-26",
+        "nombre": "Badén de Torremayor"
+      },
+      {
+        "cod": "NR2-27",
+        "nombre": "Badén Villalba de los Barros"
+      },
+      {
+        "cod": "NR2-28",
+        "nombre": "Badén Guadajira"
+      },
+      {
+        "cod": "NR2-29",
+        "nombre": "Final Lácara"
+      },
+      {
+        "cod": "NR2-30",
+        "nombre": "Puente de los Suspiros"
+      },
+      {
+        "cod": "NR2-31",
+        "nombre": "Badén de Balboa"
+      },
+      {
+        "cod": "NR2-32",
+        "nombre": "Entrada Villar del Rey 1"
+      },
+      {
+        "cod": "NR2-33",
+        "nombre": "Entrada Villar del Rey 2"
+      },
+      {
+        "cod": "NR2-34",
+        "nombre": "Entrada Villar del Rey 3"
+      },
+      {
+        "cod": "NR2-35",
+        "nombre": "Guadiana en Medellin"
+      },
+      {
+        "cod": "NR2-36",
+        "nombre": "Guadiana en Talavera la Real"
+      },
+      {
+        "cod": "R2-35",
+        "nombre": "Cancho Blanco"
+      }
+    ]
+  }
