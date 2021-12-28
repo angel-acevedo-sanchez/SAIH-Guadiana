@@ -1,18 +1,16 @@
 import requests
-import json
 import pandas as pd
-import numpy as np
 
-url = "http://www.saihguadiana.com:8090"
+URL = "http://www.saihguadiana.com:8090"
 
 
-def send_request(request, url, data, cookies):
+def send_request(request, URL, data, cookies):
 
     if request == "GET":
-        ret = requests.get(url, data=data, cookies=cookies)
+        ret = requests.get(URL, data=data, cookies=cookies)
 
     elif request == "POST":
-        ret = requests.post(url, data=data, cookies=cookies)
+        ret = requests.post(URL, data=data, cookies=cookies)
 
     else:
         print("Request must be POST or GET")
@@ -30,14 +28,14 @@ if __name__ == "__main__":
         "password": "xxxxx"
     }
 
-    request = send_request("GET", url+"/sdim_sg/logon.do", data="", cookies="")
+    request = send_request("GET", URL+"/sdim_sg/logon.do", data="", cookies="")
     session_cookie = request.cookies.get_dict()
-    request = send_request("POST", url+"/sdim_sg/logon.do",
+    request = send_request("POST", URL+"/sdim_sg/logon.do",
                            data=payload, cookies=session_cookie)
 
     if request.status_code == 200:
 
-        send_request("GET", url+"/sdim_sg/editSubscription.do",
+        send_request("GET", URL+"/sdim_sg/editSubscription.do",
                      data=payload, cookies=session_cookie)
 
         payload = {
@@ -49,7 +47,7 @@ if __name__ == "__main__":
             "format": "T"
         }
 
-        send_request("POST", url+"/sdim_sg/editSubscription.do",
+        send_request("POST", URL+"/sdim_sg/editSubscription.do",
                      data=payload, cookies=session_cookie)
 
         payload = {
@@ -61,7 +59,7 @@ if __name__ == "__main__":
             "format": "T"
         }
 
-        send_request("POST", url+"/sdim_sg/editSubscription.do",
+        send_request("POST", URL+"/sdim_sg/editSubscription.do",
                      data=payload, cookies=session_cookie)
 
         payload = {
@@ -76,7 +74,7 @@ if __name__ == "__main__":
             "format": "T"
         }
 
-        send_request("POST", url+"/sdim_sg/editSubscription.do",
+        send_request("POST", URL+"/sdim_sg/editSubscription.do",
                      data=payload, cookies=session_cookie)
 
         payload = {
@@ -91,7 +89,7 @@ if __name__ == "__main__":
             "format": "T"
         }
 
-        send_request("POST", url+"/sdim_sg/editSubscription.do",
+        send_request("POST", URL+"/sdim_sg/editSubscription.do",
                      data=payload, cookies=session_cookie)
 
         payload = {
@@ -106,7 +104,7 @@ if __name__ == "__main__":
             "format": "T"
         }
 
-        send_request("POST", url+"/sdim_sg/editSubscription.do",
+        send_request("POST", URL+"/sdim_sg/editSubscription.do",
                      data=payload, cookies=session_cookie)
 
         payload = {
@@ -121,7 +119,7 @@ if __name__ == "__main__":
             "format": "T"
         }
 
-        send_request("POST", url+"/sdim_sg/editSubscription.do",
+        send_request("POST", URL+"/sdim_sg/editSubscription.do",
                      data=payload, cookies=session_cookie)
 
         payload = {
@@ -134,7 +132,7 @@ if __name__ == "__main__":
             "edit": "Aceptar"
         }
 
-        send_request("POST", url+"/sdim_sg/preExecuteSubscription.do",
+        send_request("POST", URL+"/sdim_sg/preExecuteSubscription.do",
                      data=payload, cookies=session_cookie)
 
         payload = {
@@ -154,8 +152,11 @@ if __name__ == "__main__":
 
         # } #para el filtro minutal
 
-        text = send_request("POST", url+"/sdim_sg/executeSubscription.do",
+        text = send_request("POST", URL+"/sdim_sg/executeSubscription.do",
                             data=payload, cookies=session_cookie).text
         table = pd.read_html(text, decimal=',', thousands='.')
 
         print(table[2])
+    
+    else:
+        print("Login error")
