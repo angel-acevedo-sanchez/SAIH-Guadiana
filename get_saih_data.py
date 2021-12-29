@@ -1,3 +1,10 @@
+# -------------------------------------------------------------------------
+# Author: Angel Acevedo Sanchez. All rights reserved.
+#
+# Licensed under the GPL-v3.0 License. See LICENSE in the project root for
+# license information.
+# -------------------------------------------------------------------------
+
 import requests
 import pandas as pd
 
